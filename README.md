@@ -35,4 +35,7 @@ Creating Backend using Python Framework Django
 ## To reflects the changings into the database (Send data from MODEL to DATABASE ) use the following command in terminal
 `python manage.py migrate`
 
+## Install Postman 
+
+
 

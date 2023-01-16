@@ -6,4 +6,4 @@ from api.models import Product
 class ProductSerializer (serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Product
-        field = "__all__" # Use all the field of Product model
+        fields = '__all__'

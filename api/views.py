@@ -5,6 +5,6 @@ from api.serializer import ProductSerializer
 
 # Create your views here.
 
-class ProductViews (viewsets.ModelViewSet):
+class ProductViewSet (viewsets.ModelViewSet):
     queryset = Product.objects.all()
-    productSerializer_class = ProductSerializer
+    serializer_class = ProductSerializer
